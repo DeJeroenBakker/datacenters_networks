@@ -8,18 +8,18 @@
     "text": "Jeroen Bakker"
   },
   "text": {
-    "more": "Interactive graph of Dutch retweets surrounding datacenters 2020-2021",
-    "intro": "Interactive graph of Dutch retweets surrounding datacenters 2020-2021",
-    "title": "Retweets datacenter"
+    "more": "",
+    "intro": "Interactive graph of interactions between Twitter users in the Dutch debate surrounding datacenters.",
+    "title": "Interaction Twitter network datacenters 2020-2021"
   },
   "legend": {
-    "edgeLabel": "Retweets",
-    "colorLabel": "Modularity",
-    "nodeLabel": "Users"
+    "edgeLabel": "Interaction (mention, reply, retweet)",
+    "colorLabel": "Modularity class",
+    "nodeLabel": "Account"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "start_date",
+    "groupSelectorAttribute": "Modularity Class",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 7,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.3,
-      "minEdgeSize": 0.1,
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
       "minNodeSize": 1,
-      "maxNodeSize": 6
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
